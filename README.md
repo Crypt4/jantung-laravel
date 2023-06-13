@@ -24,13 +24,25 @@ php artisan jantung:install
 
 After running this command, verify that the `jantung.php` was added to the `config/` directory.
 
-Add the following keys in your `.env`
+You can choose between <b>Log Method</b> or <b>HTTP Method</b>. You just need to setup `.env` for it.
+
+#### Log Method `.env` setup
 
 ```bash
-JANTUNG_ENDPOINT="https://jantung.crypt4.com/api"
+JANTUNG_ENABLED=true
+JANTUNG_QUERY_SLOW_THRESHOLD=500
+JANTUNG_DRIVER=log
+```
+
+#### HTTP Method `.env` setup
+
+```bash
+JANTUNG_ENABLED=true
+JANTUNG_QUERY_SLOW_THRESHOLD=500
 JANTUNG_DRIVER=http
-JANTUNG_KEY=api-key
-JANTUNG_TOKEN=application-token
+JANTUNG_ENDPOINT="https://jantung.zahir.my/api"
+JANTUNG_KEY=
+JANTUNG_TOKEN=
 ```
 
 Test connectivity with Jantung API:
