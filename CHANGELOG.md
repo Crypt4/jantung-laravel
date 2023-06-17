@@ -2,6 +2,18 @@
 
 All notable changes to `crypt4/jantung-laravel` will be documented in this file.
 
+## 1.0.1 - 2023-06-17
+
+### What's Changed
+
+- 1.7.0 by @eren-crypto in https://github.com/Crypt4/jantung-laravel/pull/1
+
+### New Contributors
+
+- @eren-crypto made their first contribution in https://github.com/Crypt4/jantung-laravel/pull/1
+
+**Full Changelog**: https://github.com/Crypt4/jantung-laravel/compare/1.0.0...1.0.1
+
 ## 1.0.0 - 2023-06-13
 
 **Full Changelog**: https://github.com/Crypt4/jantung-laravel/commits/1.0.0
